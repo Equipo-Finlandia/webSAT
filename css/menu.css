@@ -86,19 +86,15 @@ ul#compras{
     width:300px;
 }
 
-#pdv li:hover, #compras li:hover{
+.principal li:hover{
     background-image: linear-gradient(#2989d8 0%, #1e5799 50%, #2989d8 100%);
     cursor: pointer;
     font-weight: 600;
     text-shadow: 2px 2px black;
 }
 
-#pdv:hover #submenu1, #compras:hover #submenu2{
+.principal li:hover div#submenu1{
     display: block;
     color:white;
     margin-left:-40px;
-}
-
-#submenu1 ul li:hover, #submenu2 ul li:hover{
-    background-image:linear-gradient(#1e5799 60%,#1d368f 50%, #1e5799 60%);
 }
