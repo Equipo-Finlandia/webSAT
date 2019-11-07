@@ -72,33 +72,33 @@ body {
 #submenu1, #submenu2, #submenu3, #submenu4 {
     position: absolute;
     display: none;
-    
 }
-#submenu1 ul li{
-    width:230px;
-    background-image:linear-gradient(#1e5799,lightblue, #1e5799);
+#submenu1 ul li, #submenu2 ul li{
+    width:250px;
+    background-image:linear-gradient(#1e5799,#4a67cd, #1e5799);
     margin-top:0px;
+}
+#submenu1 a, #submenu2 a{
+    text-decoration:none;
     color:white;
 }
-#submenu1 a{
-    text-decoration:none;
+ul#compras{
+    width:300px;
 }
 
-#submenu1 ul li:hover{
-    background-image:linear-gradient(#1e5799,red, #1e5799);
+#submenu1 ul li:hover, #submenu2 ul li:hover{
+    background-image:linear-gradient(#1e5799 60%,#1d368f 50%, #1e5799 60%);
 }
 
-.principal li:hover{
+#pdv li:hover, #compras li:hover{
     background-image: linear-gradient(#2989d8 0%, #1e5799 50%, #2989d8 100%);
     cursor: pointer;
     font-weight: 600;
     text-shadow: 2px 2px black;
 }
 
-.principal:hover #submenu1{
+#pdv:hover #submenu1, #compras:hover #submenu2{
     display: block;
     color:white;
-    margin-top:36px;
     margin-left:-40px;
-    
 }
