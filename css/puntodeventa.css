@@ -1,0 +1,165 @@
+body {
+    background: #e2e2e2;
+}
+
+#contenido {
+    width: 980px;
+    height: 1280px;
+    background: #C4E4F7;
+    margin: auto;
+}
+
+#encabezado {
+    width: 980px;
+    height: 160px;
+    border-bottom: solid 1px;
+}
+
+#encabezado img {
+    margin: 40px 0 0 20px;
+}
+
+#subtitulo {
+    width: 980px;
+    margin-top: -1px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1e5799;
+    color: white;
+    font-family: verdana;
+    font-weight: 600;
+}
+
+#pie {
+    float: none;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    width: 980px;
+    padding: 10px 0 10px 0;
+    text-align: right;
+}
+
+.principal {
+    list-style: none;
+    display: flex;
+    width: 940px;
+    height: 18px;
+    margin-left: -41px;
+}
+
+.menu {
+    width: 978px;
+    padding: 1px;
+    margin-top: -2px;
+    background-image: linear-gradient(#1e5799 0%, #2989d8 50%, #1e5799 100%);
+}
+
+.principal li {
+    width: 243px;
+    height: 35px;
+    margin-top: -16px;
+    margin-left: -38px;
+    display: block;
+    text-align: center;
+    padding: 15 0 0 0;
+    color: white;
+    font-family: verdana;
+}
+
+
+#submenu1,
+#submenu2,
+#submenu3,
+#submenu4 {
+    position: absolute;
+    display: none;
+}
+
+#submenu1 ul li,
+#submenu2 ul li,
+#submenu3 ul li,
+#submenu4 ul li {
+    width: 245px;
+    background-image: linear-gradient(#1e5799, #4a67cd, #1e5799);
+    margin-top: 0px;
+    margin-left: -40px;
+}
+
+#submenu1 a,
+#submenu2 a,
+#submenu3 a,
+#submenu4 a {
+    text-decoration: none;
+    color: white;
+}
+
+#pdv:hover,
+#compras:hover,
+#inventario:hover,
+#contabilidad:hover {
+    height: 32px;
+    margin-top: -18px;
+    padding-top: 19px;
+    background-image: linear-gradient(#1e5799 60%, #1d368f 50%, #1e5799 60%);
+    cursor: pointer;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+}
+
+#pdv:hover #submenu1,
+#compras:hover #submenu2,
+#inventario:hover #submenu3,
+#contabilidad:hover #submenu4 {
+    display: block;
+    color: white;
+    margin-left: -40px;
+}
+
+#submenu1 ul li:hover,
+#submenu2 ul li:hover,
+#submenu3 ul li:hover,
+#submenu4 ul li:hover {
+    background-image: linear-gradient(#1e5799 60%, #1d368f 50%, #1e5799 60%);
+}
+
+#menuizquierda {
+    width: 980px;
+    margin-left: 10px;
+    
+}
+
+
+
+a:link, a:visited, a:active {
+    
+    color: black;
+    text-decoration: blink;
+    
+}
+
+a:hover, a:hover, a:hover {
+    
+    color: red;
+    text-decoration: underline;
+    
+}
+
+#menuizquierda {
+    border: solid 2px;
+    margin-top: 20px;
+    width: 230;
+    margin-left: 20px;
+    background-color: #C0C0C0;
+
+}
+
+#tutorial {
+    width: 980px;
+    margin-left: 275px;
+    margin-top: -250px;
+    
+    
+}
