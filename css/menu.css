@@ -13,10 +13,12 @@ body {
     width: 980px;
     height: 160px;
     border-bottom: solid 1px;
+    background-color:#0067b0;
 }
 
 #encabezado img {
-    margin: 40px 0 0 20px;
+    width:150px;
+    height:150px;
 }
 
 #subtitulo {

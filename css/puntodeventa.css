@@ -15,10 +15,6 @@ body {
     border-bottom: solid 1px;
 }
 
-#encabezado img {
-    margin: 40px 0 0 20px;
-}
-
 #subtitulo {
     width: 980px;
     margin-top: -1px;
@@ -96,7 +92,7 @@ body {
     color: white;
 }
 
-#pdv:hover,
+#pdv,
 #compras:hover,
 #inventario:hover,
 #contabilidad:hover {
