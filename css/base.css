@@ -1,0 +1,17 @@
+div #menuizquierda{
+    float:left;
+    background-color:darkgray;
+    border: 1px solid;
+    padding:2em;
+    margin-top:2em;
+    margin-left:2em;
+}
+
+#menuizquierda{
+    margin-right:2em;
+}
+
+div #tutorial{
+    padding-left:2em;
+    
+}
