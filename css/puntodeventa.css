@@ -128,23 +128,27 @@ body {
 #menuizquierda {
     width: 980px;
     margin-left: 10px;
-    
+
 }
 
 
 
-a:link, a:visited, a:active {
-    
+a:link,
+a:visited,
+a:active {
+
     color: black;
     text-decoration: blink;
-    
+
 }
 
-a:hover, a:hover, a:hover {
-    
+
+a:hover {
+
     color: red;
     text-decoration: underline;
-    
+    cursor: pointer;
+
 }
 
 #menuizquierda {
@@ -156,10 +160,23 @@ a:hover, a:hover, a:hover {
 
 }
 
-#tutorial {
+/*#tutorial {
     width: 980px;
     margin-left: 275px;
     margin-top: -250px;
+    
+
+}
+*/
+
+h3 {
+
+    border-bottom: 1px solid;
+    color: black;
+    width: 706px;
+}
+
+#tutorial {
     
     
 }
