@@ -2,13 +2,13 @@ div #menuizquierda{
     float:left;
     background-color:darkgray;
     border: 1px solid;
-    padding:2em;
-    margin-top:2em;
+    padding:1em;
+    margin-top:8em;
     margin-left:2em;
 }
 
 #menuizquierda{
-    margin-right:2em;
+    margin-right:3em;
 }
 
 div #tutorial{
@@ -22,4 +22,10 @@ div #tutorial{
     padding-top: 19px;
     background-image: linear-gradient(#1e5799 60%, #1d368f 50%, #1e5799 60%);
 
+}
+
+#img_compras{
+    width: 600px;
+    height:300px;
+    border: 1px solid;
 }

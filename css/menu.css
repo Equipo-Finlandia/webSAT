@@ -1,12 +1,13 @@
 body {
-    background: url(../imagenes/fondo.jpg)
+    background: url(../imagenes/fondo.jpg);
+    background-size: cover;
 }
 a {
 	text-decoration:none;
 }
 #contenido {
     width: 980px;
-    height: 1280px;
+    height: auto;
     background: white;
     margin: auto;
 }
