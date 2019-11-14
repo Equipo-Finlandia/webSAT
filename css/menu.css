@@ -1,7 +1,9 @@
 body {
     background: #e2e2e2;
 }
-
+a {
+	text-decoration:none;
+}
 #contenido {
     width: 980px;
     height: 1280px;
