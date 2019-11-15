@@ -8,7 +8,7 @@ a {
 }
 
 #contenido {
-    margin-left: 25%;
+    margin: auto;
     width: 980px;
     height: auto;
     background: white;
