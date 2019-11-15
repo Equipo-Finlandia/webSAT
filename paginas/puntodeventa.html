@@ -1,16 +1,18 @@
 <html>
 
 <head>
-    <title>Pagina principal</title>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/puntodeventa.css" title="style" />
+    <link rel="stylesheet" type="text/css" href="../css/menu.css" title="style" />
+    <title>Pagina principal</title>
 </head>
 
 <body>
     <div id="contenido">
         <!--ENCABEZDO-->
         <div id="encabezado">
-            <img src="imagenes/advanced_development.png" />
+            <img src="../imagenes/advanced_development.png" />
         </div>
         <!--Subtitulo-->
         <div id="subtitulo"><span>Inicio</span>
@@ -68,6 +70,16 @@
             <ul>
                 <li><a href="#tablero">Tablero Pedidos</a><br></li>
                 <ol>
+                    <li><a href="#nueva">Nueva sesion</a><br></li>
+                    <li><a href="#carrito">Carrito compra</a><br></li>
+                    <li><a href="#cantidad">Cantidad prducto</a><br></li>
+                    <li><a href="#descuento">Descuento prducto</a><br></li>
+                    <li><a href="#pago">Pago prducto</a><br></li>
+                    <li><a href="#cliente">Ventana Clientes</a><br></li>
+                    <li><a href="#recibo">Ventana Recibos</a><br></li>
+                </ol>
+                <li><a href="#pedidos">Pedidos</a><br></li>
+                <ol>
                     <li><a href="#pedidos">Pedidos</a><br></li>
                     <li><a href="#sesion">Sesiones</a><br></li>
                 </ol>
@@ -89,17 +101,195 @@
             </ul>
 
         </div>
-        
+
         <div>
-        <img  id = "imagen" src="../imagenes/Puntodeventa/puntodeventa.jpg" alt="Punto de venta">
+
         </div>
-        
+
+
+
+
+
+
+
+
+
+
         <div id="tutorial">
             <h1>Guia de uso del Punto de venta.</h1>
             <a name="tablero"></a>
+            
             <h2>Tablero Pedidos:</h2>
-            <p>Introduccion tablero pedidos</p>
+            <img id="img_puntoventa" src="../imagenes/puntodeventa/puntodeventa.jpg" alt="Punto de venta">
+            <h2>Introduccion tablero pedidos</h2>
 
+            <p>En la pestaña punto de venta tenemos distintas opciones</p>
+            <a name="sesion"></a>
+            <h3>Iniciar nueva sesion:</h3>
+            <p>Para iniciar una nueva sesión, simplemente:</p>
+            <ul>
+                <ol>
+                    <li>Asegurarnos de estar en la pestaña correcta.</li>
+                    <li>Seleccionar el botón Nueva Sesión.</li>
+                </ol>
+            </ul>
+            <img src="../imagenes/puntodeventa/puntodeventa2.jpg" id="img_pedidos3">
+            <br>
+            
+            
+            
+<!--tutorial-->
+<!--tutorial-->
+            
+            
+            <a name="carrito"></a>
+            <h3>Añadir productos al Carrito de la Compra:</h3>
+            <p>Para añadir productos al carrito de la compra simplemente</p>
+            <ul>
+                <ol>
+                    <li>Seleccione el producto.</li>
+                    <li>Una vez seleccionado se añadirá el producto a la zona de Carrito de la compra.</li>
+                    <li>Si no encuentra el producto deseado puede buscarlo en la sección de Buscar productos. </li>
+                </ol>
+            </ul>
+            <img src="../imagenes/puntodeventa/productos.PNG" id="img_pedidos3">
+            <br>
+            
+<!--tutorial-->
+<!--tutorial-->
+            
+            <a name="cantidad"></a>          
+            <h3>Modificar cantidad de producto:</h3>
+            <p>Para modificar la cantidad de un producto solo tiene que seleccionar el producto en el Carro de la compra, y seleccionar la opción Cant. Para después modificar la cantidad.</p>
+
+            <ul>
+                <ol>
+                    <li>Seleccione boton Cantidad y introduzca la cantidad</li>
+                    <li>Una vez introducida puede ver como se modifica.</li>
+                </ol>
+            </ul>
+            <br>
+            <img src="../imagenes/puntodeventa/producto.jpg" id="img_pedidos2">
+            <br>
+
+<!--tutorial-->
+<!--tutorial-->
+            
+            
+            <a name="descuento"></a>           
+            <h3>Aplicar descuento a un producto:</h3>
+            <p>Para aplicar un descuento a un producto solo tiene que seleccionar el producto en el Carro de la compra:</p>
+            <ul>
+                <ol>
+                    <li>Seleccione boton Descuento y introduzca el descuento</li>
+                    <li>Una vez introducida puede ver como se modifica.</li>
+                </ol>
+            </ul>
+            <br>
+            <img src="../imagenes/puntodeventa/producto2.jpg" id="img_pedidos2">
+            <br>
+            
+            
+<!--tutorial-->
+<!--tutorial-->
+
+            <a name="pago"></a>
+            <h3>Función Pagos:</h3>
+            <p>Una vez tengamos los productos añadidos a el carrito de la compra, y tenemos el precio, el descuento y la cantidad modificadas:</p>
+
+            <ul>
+                <ol>
+                    <li>Seleccione el botón de Pagos.</li>
+                </ol>
+            </ul>
+
+            <br>
+            <img src="../imagenes/puntodeventa/producto3.jpg" id="img_pedidos2">
+            <br>
+
+
+<!--tutorial-->
+            
+<!--tutorial-->
+
+            <h3>Pagos:</h3>
+            <p>Una vez tengamos los productos añadidos a el carrito de la compra, y tenemos el precio, el descuento y la cantidad modificadas:</p>
+
+            <ul>
+                <ol>
+                    <li>Cuando seleccionemos el botón de Pagos, se abrirá una nueva ventana, en la cual nos aparecerá la cantidad a pagar por la persona en la celda Debe.</li>
+                    <li>También tendremos la celda Entregado en la cual introduciremos la cantidad de dinero que nos dé el cliente.</li>
+                    <li>Al introducir la cantidad entregada, aparecerá automáticamente el dinero a devolver al cliente en la celda Cambiar .</li>
+                    <li>Podremos cambiar el tipo de divisa a introducir en el botón de la celda Método.</li>
+                    <li>Por ultimo podemos asignar la factura a un Cliente directamente pulsando en el botón cliente .</li>
+                    <p>En el que se desplegara una nueva ventana con los clientes ya almacenados.</p>
+                    <li>Para continuar simplemente seleccione el botón Validar.</li>
+                    <li>Si se ha equivocado con algún producto o simplemente quiere retroceder seleccione el botón Atrás y le llevara de vuelta a el Punto de Venta.</li>
+                </ol>
+            </ul>
+
+            <br>
+            <img src="../imagenes/puntodeventa/producto4.jpg" id="img_pedidos3">
+            <br>
+
+
+<!--tutorial-->
+            
+            
+<!--tutorial-->
+            
+            <a name="cliente"></a>
+
+            <h3>Ventana Clientes:</h3>
+            <p>Una vez en la venta clientes:</p>
+
+            <ul>
+                <ol>
+                    <li>Demos buscar el cliente en la zona de búsqueda.</li>
+                    
+                    <li>Una vez seleccionado el cliente pasamos a seleccionar el botón Establecer Cliente y volverá a la pantalla de Función de Pagos.</li>
+                    
+                    <li>En caso de que el cliente no esté creado con anterioridad pulsaremos en el icono de añadir cliente.</li>
+                    
+                    <li>Se nos desplegara un formulario el cual tendremos que rellenar con los datos del cliente </li>
+                    
+                    <li>Una vez introducidos y verificados los datos seleccionaremos el botón guardar.</li>
+                    
+                    
+                    <li>Para continuar y volver a la pantalla de Función de Pagos seleccione el botón Establecer Cliente </li>
+                    
+                    <li>Si de lo contrario desea cancelar simplemente seleccione el botón Cancelar </li>
+                    
+                </ol>
+            </ul>
+
+            <br>
+            <img src="../imagenes/puntodeventa/producto5.jpg" id="img_pedidos3">
+            <br>
+
+
+<!--tutorial-->
+            
+            
+<!--tutorial-->
+            
+            <a name="recibo"></a>
+            
+            <h3>Ventana Recibo:</h3>
+            <p>Después de establecer el cliente y validar el pedido, nos llevara a la ventana de Recibo.</p>
+            <ul>
+                <ol>
+                    <li>Aquí nos aparecer el cambio a devolver al cliente </li>
+                    <li>Aparecerá el recibo del cliente para pre visualizarlo y nos dará la opción de Imprimir recibo.</li>
+                    <li>Por ultimo nos queda el botón de Siguiente pedido el cual nos devolverá a la pantalla de Punto de Venta.</li>
+                </ol>
+            </ul>
+            <br>
+            <img src="../imagenes/puntodeventa/recibo.jpg" id="img_pedidos">
+            <br>
+            
+            
+<!--tutorial-->
 
             <a name="pedidos"></a>
             <h3>Pedidos</h3>
@@ -140,21 +330,51 @@
             <h3>Detalles de ventas</h3>
             <p>Guia de Detalles de ventas:</p>
 
+            
+<!--tutorial-->
 
             <a name="configuracion"></a>
-            <h2>Configuracion:</h2>
-            <p>Introduccion Configuracion:</p>
+            <h3>Configuracion:</h3>
+            <p>Punto de venta:</p>
+            <ul>
+                <ol>
+                    <p>Aquí nos aparecera el el boton Crear:</p>
+                    
+                    <li>Al seleccionarlo nos aparecera un formulario con los datos del Punto de venta.</li>
+                    <li>Despues de añadir la informacion selecionamos el boton Accion para guardar.</li>
+                </ol>
+            </ul>
+            
+            <br>
+            <img src="../imagenes/puntodeventa/configuracion.PNG" id="img_pedidos3">
+            <img src="../imagenes/puntodeventa/configuracion2.PNG" id="img_pedidos3">
+            <br>
 
-
-            <a name="puntoventas"></a>
-            <h3>Punto de venta</h3>
-            <p>Guia de Punto de ventas:</p>
-
+<!--tutorial-->
+       
+            
+<!--tutorial-->
 
             <a name="productos2"></a>
-            <h3>Productos</h3>
-            <p>Guia de Productos:</p>
-
+            <p>Productos:</p>
+            
+            <img src="../imagenes/puntodeventa/configuracion4.PNG" id="img_pedidos3">
+            <ul>
+                <ol>
+                    <p>Aquí nos aparecera el el boton Crear:</p>
+                    
+                    
+                    
+                
+                    
+                    <li>Al seleccionarlo nos aparecera un formulario con los datos del producto.</li>
+                    <li>Despues de añadir la informacion selecionamos el boton Guardar.</li>
+                </ol>
+            </ul>
+            
+            <br>
+            <img src="../imagenes/puntodeventa/configuracion5.jpg" id="img_pedidos3">
+            <br>
 
         </div>
         <!--Pie de pagina-->
@@ -164,4 +384,6 @@
     </div>
 
 
-</body></html>
+</body>
+
+</html>
