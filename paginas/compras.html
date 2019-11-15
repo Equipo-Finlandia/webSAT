@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/menu.css" title="style" />
@@ -69,24 +69,26 @@
             <ul>
                 <li><a href="#tablero">Compras</a><br></li>
                 <ol>
-                    <li><a href="#pedidos">Solicitudes de<br> presupuesto</a><br></li>
-                    <li><a href="#sesion">Pedidos de <br>compra</a><br></li>
-                    <li><a href="#sesion">Proveedores</a><br></li>
+                    <li><a href="#pedidos">Orden de compra</a><br></li>
+                    <li><a href="#albaran">Solicitar Albarán</a><br></li>
                     <li><a href="#sesion">Productos</a><br></li>
                 </ol>
-                <li><a href="#catalogo">Control</a><br></li>
+                <li><a href="#catalogo">Proveedores</a><br>
+                    <ol>
+                        <li><a href="">Consultar, modificar<br>y agregar proveedores</a></li>
+                    </ol>
+                <li><a href="#catalogo">Productos</a><br></li>
                 <ol>
                     <li><a href="#productos">Productos a<br> recibir</a><br></li>
                     <li><a href="#tarifas">Facturas de <br>proveedor</a><br></li>
                 </ol>
-                <li><a href="#informes">Informes</a><br></li>
             </ul>
         </div>
         <div id="tutorial">
             <h1>Guia de uso de Compras</h1>
             <a name="tablero"></a>
             <h2>Compras</h2>
-            <img src="../imagenes/compras/compras.png" id="img_compras">
+            <img src="../imagenes/compras/compras.png" id="img_compra">
             <h2 align="center">Introduccion tablero compras</h2>
             <p>Acceder al Módulo de compras haciendo click en el menú "Compras" en la barra superior:</p>
             <img src="../imagenes/compras/Captura%20(1).png" id="img_compras">
@@ -115,7 +117,7 @@
             <img src="../imagenes/compras/Captura%20(3).png" id="img_compras2">
             <br>
 
-            <a name="sesion"></a>
+            <a name="albaran"></a>
             <h3>Solicitar un Albarán</h3>
             <p>Si se ha realizado el pedido y se quiere consultar el albarán correspondiente</p>
             <ul>Acceder al pedido:
@@ -143,51 +145,70 @@
                 <ol>
                     <li>Hacer click en el menú de Proveedores situado en el panel izquierdo.</li>
                     <li>(A) Para consultar o editar un proveedor, hacer click en el botón mismo del proveedor deseado.</li>
-                    <li value="2">(B) Para crear un nuevo Proveedor. Hacer click en el botón “Crear” en la parte superior. Y se abrirá un cuadro donde<br>rellenar con los datos del nuevo proveedor. Al finalizar bastará con  hacer click en el botón “Crear” ubicado<br> en la parte inferior.</li>
+                    <li value="2">(B) Para crear un nuevo Proveedor. Hacer click en el botón “Crear” en la parte superior. Y se abrirá un cuadro donde<br>rellenar con los datos del nuevo proveedor. Al finalizar bastará con hacer click en el botón “Crear” ubicado<br> en la parte inferior.</li>
                 </ol>
             </ul>
-             <img src="../imagenes/compras/Captura%20(6).png" id="img_compras2">
+            <img src="../imagenes/compras/Captura%20(6).png" id="img_compras2">
             <br>
 
+            <h3>Consultar, modificar y agregar proveedores</h3>
+            <ul>A.Consultar Proveedor:
+                <ul>
+                    <li>Tras haber hecho click en el botón del proveedor, la pantalla que se abrirá a continuación mostrará la información referente al proveedor.</li>
 
-            <a name="productos"></a>
+                </ul>
+            </ul>
+            <ul>B. Editar información de Proveedor:
+                <ul>
+                    <li>Hacer click en el botón “Editar” ubicado en la parte superior izquierda de la ventana. Y se nos habilitarán campos para editar la información de proveedor</li>
+
+                </ul>
+            </ul>
+            <img src="../imagenes/compras/Captura%20(7).png" id="img_compras2">
+            <br>
+
+            <a name="sesion"></a>
             <h3>Productos</h3>
-            <p>Guia de PRODUCTOS:</p>
+            <p>Consultar, editar y crear productos</p>
+            <ul>Acceder al menú Productos:
+                <ol>
+                    <li>1. Hacer click en el menú “Productos” situado en el lado izquierdo.
+                    </li>
+                    <li>(A) Hacer click en el botón "Crear" de la parte superior y rellenar la información referente al producto <br>(nombre, código de barras, precio de venta, etc.). Finalmente Hacer click en el botón "Guardar"<br> al terminar de rellenar la información.</li>
+                    <li value="2">(B) Hacer click en el producto deseado y se abrirá una nueva ventana con la información del producto.</li>
+                    <li> Si se desea editar la información del producto, hacer click en el botón “Editar” en la parte superior y proceder a modificar los datos deseados. Para terminar, hacer click en “Guardar” para conservar los cambios.</li>
+                </ol>
+            </ul>
+            <img src="../imagenes/compras/Captura%20(8).png" id="img_compras2">
+            <br>
 
+            <a name="sesion"></a>
+            <h3>Productos a recibir</h3>
+            <p>Consultar productos pedidos a proveedores</p>
+            <ul>Para consultar los pedidos abiertos:
+                <ol>
+                    <li>Hacer click en el menú “Productos a recibir” situado en el lado izquierdo.
+                    </li>
+                    <li>En la nueva ventana podremos ver los pedidos abiertos, y clickar sobre el deseado y consultar la información del mismo.</li>
+                    <li>Dentro del detalle de pedido, se puede cancelar o suprimir el mismo si se desea.</li>
+                </ol>
+            </ul>
+            <img src="../imagenes/compras/Captura%20(9).png" id="img_compras2">
+            <br>
 
-            <a name="tarifas"></a>
-            <h3>Tarifas</h3>
-            <p>Guia de TARIFAS:</p>
-
-
-            <a name="informes"></a>
-            <h2>Informes</h2>
-            <p>Introduccion Informes:</p>
-
-
-            <a name="pedidos2"></a>
-            <h3>Pedidos</h3>
-            <p>Guia de PEDIDOS:</p>
-
-
-            <a name="detallesventas"></a>
-            <h3>Detalles de ventas</h3>
-            <p>Guia de Detalles de ventas:</p>
-
-
-            <a name="configuracion"></a>
-            <h2>Configuracion</h2>
-            <p>Introduccion Configuracion:</p>
-
-
-            <a name="puntoventas"></a>
-            <h3>Punto de venta</h3>
-            <p>Guia de Punto de ventas:</p>
-
-
-            <a name="productos2"></a>
-            <h3>Productos</h3>
-            <p>Guia de Productos:</p>
+            <a name="sesion"></a>
+            <h3>Facturas de Proveedor</h3>
+            <p>Consulta de facturas</p>
+            <ul>Para consultar las facturas abiertas:
+                <ol>
+                    <li>Hacer click en el botón “Facturas de Proveedor” en el menú lateral izquierdo y se abrirá una lista con las facturas generadas.
+                    </li>
+                    <li>En la lista de facturas, seleccionar la deseada y hacer click sobre la misma.</li>
+                    <li>En la nueva ventana podremos ver y consultar lo detalles de la factura seleccionada.</li>
+                </ol>
+            </ul>
+            <img src="../imagenes/compras/Captura%20(11).png" id="img_compras2">
+            <br>
 
 
         </div>
