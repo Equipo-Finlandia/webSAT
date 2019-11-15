@@ -27,5 +27,18 @@ div #tutorial{
 #img_compras{
     width: 600px;
     height:300px;
-    border: 1px solid;
+    border: 2px solid;
+    margin-left:1em;
+}
+
+#img_compras2{
+    width:600px;
+    border:2px solid;
+    margin-left:1em;
+}
+
+#img_compras:hover, #img_compras2:hover{
+    height: inherit;
+    width:70%;
+    transition:1s;
 }
