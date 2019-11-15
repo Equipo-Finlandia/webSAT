@@ -5,7 +5,7 @@ body {
 #contenido {
     width: 980px;
     height: 2280px;
-    background: #C4E4F7;
+    background: white;
     margin: auto;
 }
 
@@ -171,6 +171,6 @@ h3, h2{
 }
 
 #imagen1 {
-	width:800px;
-	height:600px;
+	width:900px;
+	height:506px;
 }
