@@ -33,7 +33,7 @@ div #tutorial{
     margin-left:1em;
 }
 #img_pedidos{
-    width: 600px;
+    width: 500px;
     height:300px;
     border: 2px solid;
     margin-left:8em;
@@ -46,6 +46,13 @@ div #tutorial{
     margin-left:20em;
 }
 
+#img_pedidos3{
+    width:800px;
+    height:200px;
+    border:2px solid;
+    margin-left:3em;
+}
+
 #img_pedidos:hover{
     height: inherit;
     width:70%;
@@ -54,10 +61,18 @@ div #tutorial{
 }
 
 #img_pedidos2:hover{
-    height: inherit;
-    width:25%;
+    height: 50%;
+    width:200;
     transition:1s;
     margin-left:20em;
+}
+
+
+#img_pedidos3:hover{
+    height: 300;
+    width:90%;
+    transition:1s;
+    margin-left:3em;
 }
 
 #tutorial {
