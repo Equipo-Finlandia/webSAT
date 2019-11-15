@@ -1,0 +1,199 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css" title="style" />
+    <link rel="stylesheet" type="text/css" href="../css/compras.css" title="style" />
+    <title>Advanced Development</title>
+</head>
+
+<body>
+    <div id="contenido">
+        <!--ENCABEZDO-->
+        <div id="encabezado">
+            <img src="../imagenes/advanced_development.png" />
+        </div>
+        <!--Subtitulo-->
+        <div id="subtitulo"><span>Compras</span>
+        </div>
+        <div class="menu">
+            <ul class="principal">
+                <ul id="pdv">
+                    <li>Punto de Venta</li>
+                    <div id="submenu1">
+                        <ul>
+                            <li><a href="">Tablero Pedidos</a></li>
+                            <li><a href="">Catálogo</a></li>
+                            <li><a href="">Informes</a></li>
+                            <li><a href="">Configuración</a></li>
+                        </ul>
+                    </div>
+                </ul>
+                <ul id="compras">
+                    <li>Compras</li>
+                    <div id="submenu2">
+                        <ul>
+                            <li>Compra</li>
+                            <li>Control</li>
+                            <li>Informes</li>
+                        </ul>
+                    </div>
+                </ul>
+                <ul id="inventario">
+                    <li>Inventario</li>
+                    <div id="submenu3">
+                        <ul>
+                            <li>Tablero Operaciones</li>
+                            <li>Datos Principales</li>
+                            <li>Informes</li>
+                            <li>Configuración</li>
+                        </ul>
+                    </div>
+                </ul>
+                <ul id="contabilidad">
+                    <li>Contabilidad</li>
+                    <div id="submenu4">
+                        <ul>
+                            <li>Ventas</li>
+                            <li>Compras</li>
+                            <li>Informes</li>
+                            <li>Configuración</li>
+                        </ul>
+                    </div>
+                </ul>
+            </ul>
+        </div>
+
+        <div id="menuizquierda">
+
+            <ul>
+                <li><a href="#tablero">Compras</a><br></li>
+                <ol>
+                    <li><a href="#pedidos">Solicitudes de<br> presupuesto</a><br></li>
+                    <li><a href="#sesion">Pedidos de <br>compra</a><br></li>
+                    <li><a href="#sesion">Proveedores</a><br></li>
+                    <li><a href="#sesion">Productos</a><br></li>
+                </ol>
+                <li><a href="#catalogo">Control</a><br></li>
+                <ol>
+                    <li><a href="#productos">Productos a<br> recibir</a><br></li>
+                    <li><a href="#tarifas">Facturas de <br>proveedor</a><br></li>
+                </ol>
+                <li><a href="#informes">Informes</a><br></li>
+            </ul>
+        </div>
+        <div id="tutorial">
+            <h1>Guia de uso de Compras</h1>
+            <a name="tablero"></a>
+            <h2>Compras</h2>
+            <img src="../imagenes/compras/compras.png" id="img_compras">
+            <h2 align="center">Introduccion tablero compras</h2>
+            <p>Acceder al Módulo de compras haciendo click en el menú "Compras" en la barra superior:</p>
+            <img src="../imagenes/compras/Captura%20(1).png" id="img_compras">
+            <h3>Crear orden de Compra:</h3>
+            <ul>Generar solicitud de presupuesto a un vendedor
+                <ol>
+                    <li>Pulsar en el menú izquierdo de "solicitudes de presupuesto".</li>
+                    <li>Seleccionar el proveedor.</li>
+                    <li>Introducir en Referencia el número de referencia que el proveedor facilitó para realizar pedidos.</li>
+                    <li>En fecha, poner la fecha en la que el presupuesto se confirma(por defecto será la actual)</li>
+                    <li>Elegir la ubicación de la entrega.</li>
+                </ol>
+            </ul>
+            <img src="../imagenes/compras/Captura%20(2).png" id="img_compras">
+            <br>
+
+            <a name="pedidos"></a>
+            <ul>Agregar un producto a orden de compra
+                <ol>
+                    <li>Para agregar un nuevo producto, hacer click en “Añadir elemento”.</li>
+                    <li>Se generará una entrada nueva automáticamente, con los campos vacíos.</li>
+                    <li>Clickar en el desplegable y seleccionar el producto deseado para agregar.</li>
+                    <li>Al seleccionar el producto, se autocompletarán los demás campos y se podrá proseguir<br> con la orden de compra o elaborar el pedido al proveedor.</li>
+                </ol>
+            </ul>
+            <img src="../imagenes/compras/Captura%20(3).png" id="img_compras2">
+            <br>
+
+            <a name="sesion"></a>
+            <h3>Solicitar un Albarán</h3>
+            <p>Si se ha realizado el pedido y se quiere consultar el albarán correspondiente</p>
+            <ul>Acceder al pedido:
+                <ol>
+                    <li>Hacer click en la sección de Pedidos de compra en el menú izquierdo.</li>
+                    <li>Se abrirá la lista de pedidos realizados, seleccionar el pedido deseado</li>
+                </ol>
+            </ul>
+            <img src="../imagenes/compras/Captura%20(4).png" id="img_compras">
+            <br>
+            <ul>Detalle de pedido:
+                <ol>
+                    <li>Hacer click en la parte superior al Detalle del pedido, sobre el botón “Imprimir” y se abrirá un<br> menú desplegable.</li>
+                    <li>Hacer click en la opción de "Imprimir Presupuesto".</li>
+                    <li>Tras ello, se visualizará el Albarán.</li>
+                </ol>
+            </ul>
+            <img src="../imagenes/compras/Captura%20(5).png" id="img_compras2">
+            <br>
+
+            <a name="catalogo"></a>
+            <h2>Proveedores</h2>
+            <p>Consultar, modificar y agregar proveedores.</p>
+            <ul>Tablero Proveedores:
+                <ol>
+                    <li>Hacer click en el menú de Proveedores situado en el panel izquierdo.</li>
+                    <li>(A) Para consultar o editar un proveedor, hacer click en el botón mismo del proveedor deseado.</li>
+                    <li value="2">(B) Para crear un nuevo Proveedor. Hacer click en el botón “Crear” en la parte superior. Y se abrirá un cuadro donde<br>rellenar con los datos del nuevo proveedor. Al finalizar bastará con  hacer click en el botón “Crear” ubicado<br> en la parte inferior.</li>
+                </ol>
+            </ul>
+             <img src="../imagenes/compras/Captura%20(6).png" id="img_compras2">
+            <br>
+
+
+            <a name="productos"></a>
+            <h3>Productos</h3>
+            <p>Guia de PRODUCTOS:</p>
+
+
+            <a name="tarifas"></a>
+            <h3>Tarifas</h3>
+            <p>Guia de TARIFAS:</p>
+
+
+            <a name="informes"></a>
+            <h2>Informes</h2>
+            <p>Introduccion Informes:</p>
+
+
+            <a name="pedidos2"></a>
+            <h3>Pedidos</h3>
+            <p>Guia de PEDIDOS:</p>
+
+
+            <a name="detallesventas"></a>
+            <h3>Detalles de ventas</h3>
+            <p>Guia de Detalles de ventas:</p>
+
+
+            <a name="configuracion"></a>
+            <h2>Configuracion</h2>
+            <p>Introduccion Configuracion:</p>
+
+
+            <a name="puntoventas"></a>
+            <h3>Punto de venta</h3>
+            <p>Guia de Punto de ventas:</p>
+
+
+            <a name="productos2"></a>
+            <h3>Productos</h3>
+            <p>Guia de Productos:</p>
+
+
+        </div>
+        <!--Pie de pagina-->
+        <div id="pie">
+            ©2019 Finlandia Group
+        </div>
+    </div>
+</body></html>

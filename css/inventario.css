@@ -4,8 +4,8 @@ body {
 
 #contenido {
     width: 980px;
-    height: 1280px;
-    background: #C4E4F7;
+    height: 2280px;
+    background: white;
     margin: auto;
 }
 
@@ -13,6 +13,11 @@ body {
     width: 980px;
     height: 160px;
     border-bottom: solid 1px;
+    background-color:#0067b0;
+}
+#encabezado img {
+    width:150px;
+    height:150px;
 }
 
 #subtitulo {
@@ -123,8 +128,6 @@ body {
 
 #menuizquierda {
     width: 980px;
-    margin-left: 10px;
-
 }
 
 
@@ -147,32 +150,27 @@ a:hover {
 
 }
 
-#menuizquierda {
-    border: solid 2px;
-    margin-top: 20px;
-    width: 230;
-    margin-left: 20px;
+#menuizquierda ul{
+    width:280px;
     background-color: #C0C0C0;
-
-}
-
-/*#tutorial {
-    width: 980px;
-    margin-left: 275px;
-    margin-top: -250px;
-    
-
-}
-*/
-
-h3 {
-
-    border-bottom: 1px solid;
-    color: black;
-    width: 706px;
+	border: solid 2px;
+    margin-left: 20px;
+	padding: 20px 0 20px 40px;
+	text-decoration: underline;
 }
 
 #tutorial {
-    
-    
+    width: 980px;
+    padding-left:20px;
+}
+
+h3, h2{
+    border-bottom: 1px solid;
+    color: black;
+    width: 930px;
+}
+
+#imagen1 {
+	width:900px;
+	height:506px;
 }

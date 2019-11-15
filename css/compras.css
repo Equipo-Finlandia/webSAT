@@ -1,0 +1,44 @@
+div #menuizquierda{
+    float:left;
+    background-color:darkgray;
+    border: 1px solid;
+    padding:1em;
+    margin-top:8em;
+    margin-left:2em;
+}
+
+#menuizquierda{
+    margin-right:3em;
+}
+
+div #tutorial{
+    padding-left:2em;
+    
+}
+
+#compras {
+    height: 32px;
+    margin-top: -18px;
+    padding-top: 19px;
+    background-image: linear-gradient(#1e5799 60%, #1d368f 50%, #1e5799 60%);
+
+}
+
+#img_compras{
+    width: 600px;
+    height:300px;
+    border: 2px solid;
+    margin-left:1em;
+}
+
+#img_compras2{
+    width:600px;
+    border:2px solid;
+    margin-left:1em;
+}
+
+#img_compras:hover, #img_compras2:hover{
+    height: inherit;
+    width:70%;
+    transition:1s;
+}
