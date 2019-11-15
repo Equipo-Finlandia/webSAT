@@ -138,6 +138,7 @@ a {
 /*ICON*/
 #boton {
     height: 300px;
+	padding-top:2em;
 }
 
 .img {
@@ -147,6 +148,7 @@ a {
 #boton img {
     width: 200px;
     height: 200px;
+	transition:0.2s;
 }
 
 #boton1,
@@ -173,7 +175,10 @@ a {
     margin: 0px;
 }
 
-#boton1 img:hover {
+#boton1 img:hover,
+#boton2 img:hover,
+#boton3 img:hover,
+#boton4 img:hover {
     height: 230px;
     width: 230px;
     transition: 0.2s;
