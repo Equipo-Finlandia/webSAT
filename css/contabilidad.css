@@ -8,24 +8,24 @@
     text-shadow: 2px 2px black;
 }
 
+.principal a{
+    color:white;
+}
+
+
 #menuizquierda {
     width: 980px;
     margin-left: 10px;
 }
 
 
-a:link,
-a:visited,
-a:active {
-
-    color: black;
+#menuizquierda a:link,
+#menuizquierda a:visited,
+#menuizquierda a:active {
     text-decoration: none;
-
 }
 
 a:hover {
-
-    color: red;
     text-decoration: underline;
     cursor: pointer;
 
@@ -50,19 +50,38 @@ a:hover {
     margin-left: 20px;
 }
 
-
-h2 {
-    border-bottom: 1px solid;
-    color: black;
-    width: 945px;  
-}
-
 #imagen {    
     margin-top: 20px;
     width: 695px;
     margin-left: 20px;
 }
 
+#tutorial {
+    margin-left: 20px;
+}
+#tutorial h1{
+    margin-left:250px;
+}
+
+#img_cont{
+    margin-left:200px;
+    width:60%;
+    height:360;
+    border:2px solid;
+}
+
+
+#img_cont:hover{
+    width:70%;
+    height: 380px;
+    margin-left:170px;
+    transition:1s;
+}
+
+#t1{
+    column-count: 4;
+    list-style-type: none;
+}
 
 
 
