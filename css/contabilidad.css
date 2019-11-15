@@ -69,6 +69,12 @@ a:hover {
     height:360;
     border:2px solid;
 }
+#img_cont2{
+    margin-left:230px;
+    width:30%;
+    height:30%;
+    border:2px solid;
+}
 
 #img_cont:hover{
     width:70%;
@@ -77,9 +83,15 @@ a:hover {
     transition:1s;
 }
 
+#img_cont2:hover{
+    margin-left:240px;
+    width:33%;
+    height:33%;
+    transition:1s;
+}
+
 #t1{
     column-count: 4;
-    list-style-type: none;
 }
 
 
