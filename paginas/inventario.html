@@ -4,32 +4,33 @@
     <title>Pagina principal</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/inventario.css" title="style" />
+    <link rel="stylesheet" type="text/css" href="../css/menu.css" title="style" />
 </head>
 
 <body>
     <div id="contenido">
         <!--ENCABEZDO-->
         <div id="encabezado">
-            <a href="../index.html"> <img src="../imagenes/advanced_development.png"/> </a>
+            <a href="../index.html"> <img src="../imagenes/advanced_development.png" /> </a>
         </div>
         <!--Subtitulo-->
-        <div id="subtitulo"><span>Inicio</span>
+        <div id="subtitulo"><span>Inventario</span>
         </div>
         <div class="menu">
             <ul class="principal">
                 <ul id="pdv">
-                    <li>Punto de Venta</li>
+                    <li><a href="puntodeventa.html">Punto de Venta</a></li>
                     <div id="submenu1">
                         <ul>
-                            <li><a href="">Tablero Pedidos</a></li>
-                            <li><a href="">Catálogo</a></li>
-                            <li><a href="">Informes</a></li>
-                            <li><a href="">Configuración</a></li>
+                            <li><a href="puntodeventa.html"#tablero>Tablero Pedidos</a></li>
+                            <li><a href="puntodeventa.html#catalogo">Catálogo</a></li>
+                            <li><a href="puntodeventa.html#informes">Informes</a></li>
+                            <li><a href="puntodeventa.html#configuracion">Configuración</a></li>
                         </ul>
                     </div>
                 </ul>
                 <ul id="compras">
-                    <li>Compras</li>
+                    <li><a href="compras.html">Compras</a></li>
                     <div id="submenu2">
                         <ul>
                             <li>Compra</li>
@@ -39,7 +40,7 @@
                     </div>
                 </ul>
                 <ul id="inventario">
-                    <li>Inventario</li>
+                    <li><a href="inventario.html">Inventario</a></li>
                     <div id="submenu3">
                         <ul>
                             <li>Tablero Operaciones</li>
@@ -50,7 +51,7 @@
                     </div>
                 </ul>
                 <ul id="contabilidad">
-                    <li>Contabilidad</li>
+                    <li><a href="contabilidad.html">Contabilidad</a></li>
                     <div id="submenu4">
                         <ul>
                             <li>Ventas</li>
@@ -62,8 +63,8 @@
                 </ul>
             </ul>
         </div>
-		<h1>Guia de uso del Inventario.</h1>
-            <a name="tablero"></a>
+        <h1>Guia de uso del Inventario.</h1>
+        <a name="tablero"></a>
 
         <div id="menuizquierda">
 
@@ -72,93 +73,181 @@
                 <ol>
                     <li><a href="#transferencias">Transferencias</a><br></li>
                     <li><a href="#ajuste">justes de inventario</a><br></li>
-					<li><a href="#desechar">Desechar</a><br></li>
-					<li><a href="#ejecutar">Eejecutar Planificador</a><br></li>
+                    <li><a href="#desechar">Desechar</a><br></li>
+                    <li><a href="#ejecutar">Eejecutar Planificador</a><br></li>
                 </ol>
                 <li><a href="#catalogo">Datos Principales</a><br></li>
                 <ol>
                     <li><a href="#productos">Productos</a><br></li>
-                    <li><a href="#tarifas">Tarifas</a><br></li>
+                    <li><a href="#abastecimiento">Tarifas</a><br></li>
                 </ol>
                 <li><a href="#informes">Informes</a><br></li>
                 <ol>
-                    <li><a href="#pedidos2">Pedidos</a><br></li>
-                    <li><a href="#detallesventas">Detalles de Ventas</a><br></li>
+                    <li><a href="#inventario">Inventario</a><br></li>
+                    <li><a href="#valoracion">Valoracion del inventario</a><br></li>
+                    <li><a href="#movimiento">Movimientos de producto</a><br></li>
                 </ol>
-                <li><a href="#configuracion">Configuracion</a><br></li>
+                <li><a href="#almacen">Configuracion</a><br></li>
                 <ol>
-                    <li><a href="#puntoventas">Punto de venta</a><br></li>
-                    <li><a href="#productos2">Productos</a><br></li>
+                    <li><a href="#almacen">Almacenes</a><br></li>
+                    <li><a href="#operaciones">Tipos de operaciones</a><br></li>
+                    <li><a href="#categoria">Categorias de productos</a><br></li>
                 </ol>
             </ul>
 
         </div>
         <div id="tutorial">
             <h2>1.Tablero Pedidos:</h2>
-            <p>en este departamento puedes organizar y realizar operaciones de stocks</p>
-
+            <p>En este departamento puedes organizar y realizar operaciones de stocks</p>
+            <img src="../imagenes/inventario/tablero.PNG"  id="img_inventario"/>
+            <img src="../imagenes/inventario/tablero2.PNG"  id="img_inventario"/>
 
             <a id="transferencias"></a>
             <h3>1.1Transferencias</h3>
             <p>Es Transferencias puedes consultar todas las trasferencias registradas, con atributos
-			referencia, empresa, fecha, origen <br/>y estado</p>
-			<img id="imagen1" src="../imagenes/inventario/transferencia.png"/>
-			<br/><ol>
-			<li>El boton "Crear" nos permite crear una nueva Operacion.</li>
-			<li>Esta baarra nos permite organizar el orden y visualizar las operaciones, puedes hacer click en zona de encabezado corrrespondiente.</li>
-			<li>Buscador de operaciones, para utilizarlo, introduce la parabla clave de búsqueda y seleccionar un filtro <br/>
-			correspondiente(Empresa, Estado, Referencia, etc...) para facilitar la búsqueda.</li>
-			<li>Estos tres botones nos permite cambiar la forma de visualizacion.</li>
-			</ol>
+                referencia, empresa, fecha, origen <br />y estado</p>
+            <img src="../imagenes/inventario/transferencia.png"  id="img_inventario"/>
+            <br />
+            <ol>
+                <li>El boton "Crear" nos permite crear una nueva Operacion.</li>
+                <li>Esta barra nos permite organizar el orden y visualizar las operaciones, puedes hacer click en zona de encabezado corrrespondiente.</li>
+                <li>Buscador de operaciones, para utilizarlo, introduce la parabla clave de búsqueda y seleccionar un filtro <br />
+                    correspondiente(Empresa, Estado, Referencia, etc...) para facilitar la búsqueda.</li>
+                <li>Estos tres botones nos permite cambiar la forma de visualizacion.</li>
+            </ol>
             <a name="ajuste"></a>
             <h3>1.2Ajuste de Inventario</h3>
-			<img id="imagen2" src="../imagenes/inventario/ajustes.png"/>
-            <p>Guia de inventario:</p>
+            <img src="../imagenes/inventario/inventario.PNG"  id="img_inventario"/>
 
+            <p>En la pestaña Ajuste de Inventario puede visualizar los inventarios actuales. El boton "Crear" nos permite crear un nuevo inventario</p>
+
+            <ol>
+                <li>Una vez en crear rellenamos el formulario</li>
+                <li>Seleccionamos el boton Guardar</li>
+            </ol>
+            <img src="../imagenes/inventario/inventario2.PNG"  id="img_inventario"/>
 
             <a name="desechar"></a>
             <h3>1.3Desechar:</h2>
-            <p>Introduccion Desechar</p>
+                <p>En la pestaña "Desechar" tenemos la opcion de desechar productos de el inventario.Desechar un nuevo producto seleccionaos "Crear"</p>
+                <img src="../imagenes/inventario/desechar.PNG"  id="img_inventario"/>
+                <ol>
+                    <li>Una vez en crear rellenamos el formulario</li>
+                    <li>Seleccionamos el boton Guardar</li>
+                </ol>
+                <img src="../imagenes/inventario/desechar2.PNG"  id="img_inventario"/>
 
 
-            <a name="ejecutar"></a>
-            <h3>1.4Ejecutar Planificador</h3>
-            <p>Guia de Ejecutar Planificador:</p>
+                <a name="ejecutar"></a>
+                <h3>1.4Ejecutar Planificador</h3>
+                <p>Al sellecionar la pestaña Ejecutar Planificador se abrira una nueva ventana</p>
+                <p>Simplemente tendremos que selecionar la opcion Ejecutar Planificadores</p>
+                <img src="../imagenes/inventario/planificador.PNG"  id="img_inventario"/>
 
 
-            <a name="tarifas"></a>
-            <h3>Tarifas</h3>
-            <p>Guia de TARIFAS:</p>
+
+                <a name="productos"></a>
+                <h3>Productos</h3>
+                <p>En la pestaña Productos, podra visualziar sus productos, editarlos o crear nuevos:</p>
+                <img src="../imagenes/inventario/productos.PNG" id="img_inventario" />
+                <ol>
+                    <li>Para crear un produto nuevo seleccione "Crear"</li>
+                </ol>
+                <ol>
+                    <li>Se abrira un nuevo formulario que tiene que rellenar</li>
+                    <li>Despues de rellenar el formulario pulse en "Guardar"</li>
+                </ol>
+                <img src="../imagenes/inventario/productos2.PNG" id="img_inventario" />
 
 
-            <a name="informes"></a>
-            <h2>Informes:</h2>
-            <p>Introduccion Informes:</p>
+                <a name="abastecimiento"></a>
+                <h2>Reglas de abastecimiento:</h2>
+                <p>En la pestaña de Reglas de abastecimiento podremos visualizar las reglas anteriores o crear nuevas</p>
+                <p>Para crear una nueva simplemente seleccione "Crear"</p>
+                <img src="../imagenes/inventario/abastecimiento.PNG" id="img_inventario" />
+                <ol>
+                    <li>Se abrira un nuevo formulario que tiene que rellenar</li>
+                    <li>Despues de rellenar el formulario pulse en "Guardar"</li>
+                </ol>
+                <img src="../imagenes/inventario/abastecimiento2.PNG"  id="img_inventario" />
 
 
-            <a name="pedidos2"></a>
-            <h3>Pedidos</h3>
-            <p>Guia de PEDIDOS:</p>
+                <a name="inventario"></a>
+                <h3>Inventario</h3>
+                <p>En la pestaña de Inventario se abre automaticamente una pequeña pestaña en la que seleccionaremos Recuperar las cantidades de inventario</p>
+                <img src="../imagenes/inventario/iventario.PNG" id="img_inventario" />
+
+                <ol>
+                    <li>Se abrira una lista con todos los productos en el inventario.</li>
+                    <li>Su ubicacion, la cantidad reservada, la cantidad a mano</li>
+                </ol>
+                <img src="../imagenes/inventario/iventario2.PNG" id="img_inventario" />
 
 
-            <a name="detallesventas"></a>
-            <h3>Detalles de ventas</h3>
-            <p>Guia de Detalles de ventas:</p>
+
+                <a name="valoracion"></a>
+                <h3>Valoracion del inventario</h3>
+                <p>En esta pestaña se abrira una nueva ventana con varias opciones</p>
+                <ol>
+                    <li>Seleccione Retrive the inventory validation.</li>
+                </ol>
+                <img src="../imagenes/inventario/valoracion.PNG" id="img_inventario" />
+                <ol>
+                    <li>Para crear una nueva valoracion del inventario simplemente seleccione "Crear"</li>
+                    <li>Se abrira una lista con todos los productos en el inventario y sus valoraciones.</li>
+                </ol>
+                <img src="../imagenes/inventario/valoracion2.PNG" id="img_inventario" />
 
 
-            <a name="configuracion"></a>
-            <h2>Configuracion:</h2>
-            <p>Introduccion Configuracion:</p>
+                <a name="movimiento"></a>
+                <h3>Movimiento:</h3>
+                <p>En la pestaña Movimiento, podra visualizar los movimientos realizados</p>
+                <img src="../imagenes/inventario/movimientos.PNG" id="img_inventario" />
+                <ol>
+                    <li>Seleccione uno y se le abrira una pequeña descripcion.</li>
+                </ol>
+                <img src="../imagenes/inventario/movimientos2.PNG" id="img_inventario" />
 
 
-            <a name="puntoventas"></a>
-            <h3>Punto de venta</h3>
-            <p>Guia de Punto de ventas:</p>
 
 
-            <a name="productos2"></a>
-            <h3>Productos</h3>
-            <p>Guia de Productos:</p>
+
+                <a name="almacen"></a>
+                <h3>Almacen</h3>
+                <p>En esta pestaña le apareceran todos los almacenes ya creados. Seleccione uno para editarlo</p>
+                <img src="../imagenes/inventario/almacen.PNG" id="img_inventario" />
+                <ol>
+                    <li>Se abrira una nueva ventana con un formulario</li>
+                    <li>Despues de rellenar el formulario sellecione "Guardar"</li>
+                </ol>
+                <img src="../imagenes/inventario/almacen2.PNG" id="img_inventario" />
+
+
+
+
+                <a name="operaciones"></a>
+                <h3>Tipos de operaciones</h3>
+                <p>En esta seccion podremos ver las operaciones realizadas</p>
+                <ol>
+                    <li>Ademas puede crear una nueva operacion</li>
+                </ol>
+                <img src="../imagenes/inventario/operaciones.PNG" id="img_inventario" />
+                <ol>
+                    <li>Se abrira una nueva ventana con un formulario que tiene que rellenar.</li>
+                    <li>Despues de rellenar el formulario seleecione "Guardar".</li>
+                </ol>
+                <img src="../imagenes/inventario/operaciones2.PNG" id="img_inventario" />
+            
+
+                <a name="categoria"></a>
+                <h3>Categorias de productos</h3>
+                <p>En esta seccion puede visualizar las Categorias creadas o crear una nueva</p>
+                <img src="../imagenes/inventario/categoria.PNG" id="img_inventario" />
+                <ol>
+                    <li>Se abrira una nueva ventana con un formulario que tiene que rellenar.</li>
+                    <li>Despues de rellenar el formulario seleecione "Guardar".</li>
+                </ol>
+                <img src="../imagenes/inventario/categoria2.PNG" id="img_inventario" />
 
 
         </div>
@@ -169,4 +258,6 @@
     </div>
 
 
-</body></html>
+</body>
+
+</html>
