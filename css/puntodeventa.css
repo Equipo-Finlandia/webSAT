@@ -1,3 +1,4 @@
+
 div #menuizquierda {
     float: left;
     background-color: darkgray;
@@ -23,7 +24,7 @@ div #tutorial {
 
 }
 
-#principal {
+#pdv {
     height: 32px;
     margin-top: -18px;
     padding-top: 19px;
@@ -90,5 +91,9 @@ a:visited {
 }
 
 .menu a{
+    color:white;
+}
+
+#menuizquierda a:hover{
     color:white;
 }
