@@ -39,6 +39,9 @@ a:hover {
     background-color: #C0C0C0;
     float: left;
 }
+#menuizquierda a:hover{
+    color:white;
+}
 
 #menuizquierda li,
 #menuizquierda ul {
