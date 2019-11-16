@@ -14,6 +14,9 @@ div #menuizquierda {
 #menuizquierda li {
     margin-left: -10px;
 }
+#menuizquierda a:hover{
+    color:white;
+}
 
 div #tutorial {
     padding-left: 2em;
@@ -50,7 +53,7 @@ div #tutorial {
 
 #img_pedidos3 {
     width: 800px;
-    height: 200px;
+    height: 50%;
     border: 2px solid;
     margin-left: 3em;
 }
@@ -84,4 +87,8 @@ div #tutorial {
 a:visited {
     text-decoration: none;
     color: blue;
+}
+
+.menu a{
+    color:white;
 }
