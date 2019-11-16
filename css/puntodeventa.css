@@ -85,3 +85,7 @@ a:visited {
     text-decoration: none;
     color: blue;
 }
+
+.menu a{
+    color:white;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/menu.css" title="style" />
@@ -19,44 +20,41 @@
         <div class="menu">
             <ul class="principal">
                 <ul id="pdv">
-                    <li>Punto de Venta</li>
+                    <li><a href="puntodeventa.html">Punto de Venta</a></li>
                     <div id="submenu1">
                         <ul>
                             <li><a href="">Tablero Pedidos</a></li>
                             <li><a href="">Catálogo</a></li>
-                            <li><a href="">Informes</a></li>
                             <li><a href="">Configuración</a></li>
                         </ul>
                     </div>
                 </ul>
                 <ul id="compras">
-                    <li>Compras</li>
+                    <li><a href="compras.html">Compras</a></li>
                     <div id="submenu2">
                         <ul>
-                            <li>Compra</li>
-                            <li>Control</li>
-                            <li>Informes</li>
+                            <li><a href="#compras">Compras</a></li>
+                            <li><a href="#proveedores">Proveedores</a></li>
+                            <li><a href="#productos">Productos</a></li>
                         </ul>
                     </div>
                 </ul>
                 <ul id="inventario">
-                    <li>Inventario</li>
+                    <li><a href="inventario.html">Inventario</a></li>
                     <div id="submenu3">
                         <ul>
                             <li>Tablero Operaciones</li>
                             <li>Datos Principales</li>
-                            <li>Informes</li>
                             <li>Configuración</li>
                         </ul>
                     </div>
                 </ul>
                 <ul id="contabilidad">
-                    <li>Contabilidad</li>
+                    <li><a href="contabilidad.html">Contabilidad</a></li>
                     <div id="submenu4">
                         <ul>
                             <li>Ventas</li>
                             <li>Compras</li>
-                            <li>Informes</li>
                             <li>Configuración</li>
                         </ul>
                     </div>
@@ -67,61 +65,34 @@
         <div id="menuizquierda">
 
             <ul>
-                <li><a href="#tablero">Compras</a><br></li>
+                <li><a href="#compras">Compras</a><br></li>
                 <ol>
                     <li><a href="#pedidos">Orden de compra</a><br></li>
                     <li><a href="#albaran">Solicitar Albarán</a><br></li>
                     <li><a href="#sesion">Productos</a><br></li>
                 </ol>
-                <li><a href="#catalogo">Proveedores</a><br>
+                <li><a href="#proveedores">Proveedores</a><br>
                     <ol>
-                        <li><a href="">Consultar, modificar<br>y agregar proveedores</a></li>
+                        <li><a href="#cons_prov">Consultar, modificar<br>y agregar proveedores</a></li>
                     </ol>
-                <li><a href="#catalogo">Productos</a><br></li>
+                <li><a href="#productos">Productos</a><br></li>
                 <ol>
-                    <li><a href="#productos">Productos a<br> recibir</a><br></li>
-                    <li><a href="#tarifas">Facturas de <br>proveedor</a><br></li>
+                    <li><a href="#prod1">Productos a<br> recibir</a><br></li>
+                    <li><a href="#factprov">Facturas de <br>proveedor</a><br></li>
                 </ol>
             </ul>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
         <div id="tutorial">
             <h1>Guia de uso de Compras</h1>
-            <a name="tablero"></a>
+            <a name="compras"></a>
             <h2>Compras</h2>
             <img src="../imagenes/compras/compras.png" id="img_compra">
             <h2 align="center">Introduccion tablero compras</h2>
             <p>Acceder al Módulo de compras haciendo click en el menú "Compras" en la barra superior:</p>
             <img src="../imagenes/compras/Captura%20(1).png" id="img_compras">
+            <a name="pedidos"></a>
             <h3>Crear orden de Compra:</h3>
             <ul>Generar solicitud de presupuesto a un vendedor
                 <ol>
@@ -135,7 +106,7 @@
             <img src="../imagenes/compras/Captura%20(2).png" id="img_compras">
             <br>
 
-            <a name="pedidos"></a>
+
             <ul>Agregar un producto a orden de compra
                 <ol>
                     <li>Para agregar un nuevo producto, hacer click en “Añadir elemento”.</li>
@@ -168,7 +139,7 @@
             <img src="../imagenes/compras/Captura%20(5).png" id="img_compras2">
             <br>
 
-            <a name="catalogo"></a>
+            <a name="proveedores"></a>
             <h2>Proveedores</h2>
             <p>Consultar, modificar y agregar proveedores.</p>
             <ul>Tablero Proveedores:
@@ -180,8 +151,8 @@
             </ul>
             <img src="../imagenes/compras/Captura%20(6).png" id="img_compras2">
             <br>
-
-            <h3>Consultar, modificar y agregar proveedores</h3>
+            <a name="cons_prov"></a>
+            <h4>Consultar, modificar y agregar proveedores</h4>
             <ul>A.Consultar Proveedor:
                 <ul>
                     <li>Tras haber hecho click en el botón del proveedor, la pantalla que se abrirá a continuación mostrará la información referente al proveedor.</li>
@@ -197,8 +168,8 @@
             <img src="../imagenes/compras/Captura%20(7).png" id="img_compras2">
             <br>
 
-            <a name="sesion"></a>
-            <h3>Productos</h3>
+            <a name="productos"></a>
+            <h2>Productos</h2>
             <p>Consultar, editar y crear productos</p>
             <ul>Acceder al menú Productos:
                 <ol>
@@ -212,7 +183,7 @@
             <img src="../imagenes/compras/Captura%20(8).png" id="img_compras2">
             <br>
 
-            <a name="sesion"></a>
+            <a name="prod1"></a>
             <h3>Productos a recibir</h3>
             <p>Consultar productos pedidos a proveedores</p>
             <ul>Para consultar los pedidos abiertos:
@@ -226,7 +197,7 @@
             <img src="../imagenes/compras/Captura%20(9).png" id="img_compras2">
             <br>
 
-            <a name="sesion"></a>
+            <a name="factprov"></a>
             <h3>Facturas de Proveedor</h3>
             <p>Consulta de facturas</p>
             <ul>Para consultar las facturas abiertas:
@@ -247,4 +218,6 @@
             ©2019 Finlandia Group
         </div>
     </div>
-</body></html>
+</body>
+
+</html>

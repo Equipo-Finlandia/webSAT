@@ -13,6 +13,9 @@ div #menuizquierda{
 #menuizquierda li{
     margin-left:-10px;
 }
+#menuizquierda a:hover{
+    color:white;
+}
 
 div #tutorial{
     padding-left:2em;
@@ -59,4 +62,8 @@ div #tutorial{
 a:visited{
     text-decoration: none;
     color:blue;
+}
+
+.menu a{
+    color:white;
 }
