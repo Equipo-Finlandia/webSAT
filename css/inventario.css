@@ -7,7 +7,7 @@ div #menuizquierda {
     background-color: darkgray;
     border: 1px solid;
     padding: 1em;
-    margin-top: 8em;
+    margin-top: 5em;
     margin-left: 2em;
 }
 
@@ -21,7 +21,10 @@ div #menuizquierda {
 
 div #tutorial {
     padding-left: 2em;
+}
 
+#menuizquierda a:hover{
+    color:white;
 }
 
 #principal {
@@ -31,11 +34,21 @@ div #tutorial {
     background-image: linear-gradient(#1e5799 60%, #1d368f 50%, #1e5799 60%);
 }
 
+#esp{
+    height:40px;
+}
+
 #img_puntoventa {
     width: 600px;
     height: 300px;
     border: 2px solid;
     margin-left: 1em;
+}
+
+#img1{
+    width:600px;
+    height:350px;
+    border:1px solid;
 }
 
 #img_inventario {
