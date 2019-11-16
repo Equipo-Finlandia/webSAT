@@ -11,7 +11,7 @@
     <div id="contenido">
         <!--ENCABEZDO-->
         <div id="encabezado">
-            <a href="../index.html"> <img src="../imagenes/advanced_development.png"/> </a>
+            <a href="../index.html"> <img src="../imagenes/advanced_development.png" /> </a>
         </div>
         <!--Subtitulo-->
         <div id="subtitulo"><span>Contabilidad</span>
@@ -22,7 +22,7 @@
                     <li><a href="puntodeventa.html">Punto de Venta</a></li>
                     <div id="submenu1">
                         <ul>
-                            <li><a href="puntodeventa.html"#tablero>Tablero Pedidos</a></li>
+                            <li><a href="puntodeventa.html#tablero">Tablero Pedidos</a></li>
                             <li><a href="puntodeventa.html#catalogo">Catálogo</a></li>
                             <li><a href="puntodeventa.html#informes">Informes</a></li>
                             <li><a href="puntodeventa.html#configuracion">Configuración</a></li>
@@ -43,7 +43,7 @@
                     <li><a href="inventario.html">Inventario</a></li>
                     <div id="submenu3">
                         <ul>
-                            <li>Tablero Operaciones</li>
+                            <li><a href="inventario.html#tablero">Tablero Operaciones</a></li>
                             <li>Datos Principales</li>
                             <li>Informes</li>
                             <li>Configuración</li>
@@ -67,33 +67,34 @@
         <div id="menuizquierda">
 
             <ul>
-                <li><a href="#tableroventas">Tablero Ventas</a><br></li>
-
                 <ol>
-                    <li><a href="#documentos">Documentos</a><br></li>
+                    <li><a href="#compras">Compras</a><br></li>
 
-                    <ul><a href="#facturascliente">Facturas de cliente</a><br></ul>
-                    <ul><a href="#rectificatibas">Rectificativas de cliente</a><br></ul>
-                    <ul><a href="#pagos">Pagos</a><br></ul>
-
-                    <li><a href="#datosprincipales">Datos principales</a><br></li>
-
-                    <ul><a href="#clientes">Clientes</a><br></ul>
-                    <ul><a href="#productosvendibles">Productos Vendibles</a><br></ul>
+                    <ul>
+                        <li><a href="#documentos">Documentos</a></li>
+                        <li><a href="#datos">Datos Importantes</a></li>
+                    </ul>
+                    <li><a href="#ventas">Ventas</a><br></li>
+                    <li><a href="#asesor">Tablero Asesor</a><br></li>
+                    <li><a href="#pagos">Pagos</a><br></li>
+                    <ul>
+                        <li><a href="#pagos1">Métodos de Pago</a></li>
+                    </ul>
                 </ol>
             </ul>
         </div>
         <div id="tutorial">
-            <h1>Guia de uso del tablero de Contablidad.</h1>
+            <h1>Guia de uso del tablero de Contablidad</h1>
             <a name="tablero"></a>
             <div>
                 <img id="imagen" src="../imagenes/contabilidad/Screenshot_1.jpg" alt="contabilidad">
             </div>
             <h2>Tablero Compras</h2>
-            <p>Acceder al Módulo de compras haciendo click en el menú "Compras" en la barra superior:</p>
+            <a name="compras"></a>
+            <p>Acceder al Módulo de compras haciendo click en el menú "Contabilidad" en la barra superior:</p>
             <img src="../imagenes/contabilidad/Screenshot_2.jpg" id="img_cont">
             <br>
-            <p>Aquí se podrá consultar el tablero principal de Contabilidad. Se podrán consultar las siguientes tablas:</p>
+            <p>Aquí se podrá entrar al tablero principal de Contabilidad, y se podrán consultar las siguientes tablas:</p>
             <ul id="t1">
                 <li>Facturas de cliente</li>
                 <li>Facturas de proveedor</li>
@@ -105,7 +106,8 @@
                 <li>Información de la Compañía</li>
             </ul>
             <br>
-            <h3>Consulta de Documentos</h3>
+            <a name="documentos"></a>
+            <h4>Consulta de Documentos</h4>
             <ol>
                 <li>Acceder al panel de Documentos haciendo click en el menú "Documentos" en la barra superior</li>
                 <br>
@@ -119,7 +121,8 @@
             <img src="../imagenes/contabilidad/Screenshot_3.jpg" id="img_cont">
             <br>
 
-            <h3>Datos Principales</h3>
+            <a name="datos"></a>
+            <h4>Datos Principales</h4>
             <ol>
                 <li>Hacer Click sobre el botón de "Datos Principales" en el panel izquierdo.</li>
                 <br>
@@ -130,7 +133,8 @@
             <img src="../imagenes/contabilidad/Screenshot_5.jpg" id="img_cont">
             <br>
 
-            <h2>Tablero Ventas</h2>
+            <a name="ventas"></a>
+            <h2>Ventas</h2>
             <p>Podemos encontrar el tablero de Ventas en el panel izquierdo, y está dividido en 3 secciones que podremos <br>consultar su documentación:</p>
             <ul id="t1">
                 <li>Facturas de Proveedor</li>
@@ -144,6 +148,7 @@
             <img src="../imagenes/contabilidad/Screenshot_7.jpg" id="img_cont">
             <br>
 
+            <a name="asesor"></a>
             <h2>Tablero Asesor</h2>
             <p>Podemos encontrar el tablero Asesor en el panel izquierdo, y estará subdividido en 3 secciones que podremos <br>consultar:</p>
             <ul id="t1">
@@ -155,7 +160,28 @@
             <img src="../imagenes/contabilidad/Screenshot_8.jpg" id="img_cont">
             <br>
 
+            <a name="pagos"></a>
+            <h2>Pagos</h2>
+            <br>
+            
+            <a name="pagos1"></a>
+            <p>Metodos de Pago</p>
+
+            <p>Para modificar o agregar nuevos métodos de pago:</p>
+            <ol>
+                <li>En el menú lateral izquierdo hacer click en Medios de pago</li>
+                <li>(A) Para crear nuevo método de pago, hacer click en el botón crear ubicado en la parte superior.</li>
+                <li value="2">(B) Para modificar un metodo de pago existente, seleccionarlo en el centro de la página y hacer click en "Configurar"</li>
+                <li>En la nueva ventana, hacer click en la pestaña "Configuración"</li>
+                <li>Ahora seleccionar el Banco</li>
+                <li>Hacer click en el botón Editar en la parte superior</li>
+                <li>Se abrirá una nueva ventana donde se podrá editar la información del meteodo de pago.</li>
+            </ol>
+            <img src="../imagenes/contabilidad/Screenshot_9.jpg" id="img_cont3">
+            <br>
+            <br>
         </div>
+
         <!--Pie de pagina-->
         <div id="pie">
             ©2019 Finlandia Group

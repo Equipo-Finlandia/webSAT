@@ -8,8 +8,8 @@
     text-shadow: 2px 2px black;
 }
 
-.principal a{
-    color:white;
+.principal a {
+    color: white;
 }
 
 
@@ -37,11 +37,12 @@ a:hover {
     width: 230;
     margin-left: 20px;
     background-color: #C0C0C0;
-    float: left; 
+    float: left;
 }
 
-#menuizquierda li, #menuizquierda ul{
-    margin-left:-10px;
+#menuizquierda li,
+#menuizquierda ul {
+    margin-left: -10px;
 }
 
 
@@ -50,7 +51,7 @@ a:hover {
     margin-left: 20px;
 }
 
-#imagen {    
+#imagen {
     margin-top: 20px;
     width: 695px;
     margin-left: 20px;
@@ -60,41 +61,53 @@ a:hover {
     margin-left: 20px;
     font-family: verdana;
 }
-#tutorial h1{
-    margin-left:250px;
+
+#tutorial h1 {
+    margin-left: 250px;
 }
 
-#img_cont{
-    margin-left:200px;
-    width:60%;
-    height:360;
-    border:2px solid;
-}
-#img_cont2{
-    margin-left:230px;
-    width:30%;
-    height:30%;
-    border:2px solid;
+#img_cont {
+    margin-left: 200px;
+    width: 60%;
+    height: 360;
+    border: 2px solid;
 }
 
-#img_cont:hover{
-    width:70%;
+#img_cont2 {
+    margin-left: 230px;
+    width: 30%;
+    height: 30%;
+    border: 2px solid;
+}
+
+#img_cont3 {
+    margin-left: 230px;
+    width: 40%;
+    height: 60%;
+    border: 2px solid;
+}
+
+#img_cont:hover {
+    width: 70%;
     height: 380px;
-    margin-left:170px;
-    transition:1s;
+    margin-left: 170px;
+    transition: 1s;
 }
 
-#img_cont2:hover{
-    margin-left:240px;
-    width:33%;
-    height:33%;
-    transition:1s;
+#img_cont2:hover {
+    margin-left: 240px;
+    width: 33%;
+    height: 33%;
+    transition: 1s;
 }
 
-#t1{
+#img_cont3:hover {
+    margin-left: 200px;
+    width: 50%;
+    height: 77%;
+    transition: 1s;
+}
+
+#t1 {
     column-count: 4;
 }
-
-
-
-
