@@ -80,6 +80,13 @@ a:hover {
     border: 2px solid;
 }
 
+#img_cont3 {
+    margin-left: 230px;
+    width: 40%;
+    height: 60%;
+    border: 2px solid;
+}
+
 #img_cont:hover {
     width: 70%;
     height: 380px;
@@ -91,6 +98,13 @@ a:hover {
     margin-left: 240px;
     width: 33%;
     height: 33%;
+    transition: 1s;
+}
+
+#img_cont3:hover {
+    margin-left: 200px;
+    width: 50%;
+    height: 77%;
     transition: 1s;
 }
 
