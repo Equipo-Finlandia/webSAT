@@ -57,6 +57,11 @@ a {
     margin-left: -41px;
 }
 
+.principal a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
 .menu {
     width: 978px;
     padding: 1px;

@@ -2,6 +2,14 @@
 	text-decoration:none;
 	color:white;
 }
+
+#inventario {
+    height: 32px;
+    margin-top: -18px;
+    padding-top: 19px;
+    background-image: linear-gradient(#1e5799 60%, #1d368f 50%, #1e5799 60%);
+}
+
 div #menuizquierda {
     float: left;
     background-color: darkgray;
