@@ -1,6 +1,6 @@
 div #menuizquierda {
     float: left;
-    background-color: darkgray;
+    background-color: #C0C0C0;
     border: 1px solid;
     padding: 1em;
     margin-top: 8em;
@@ -21,7 +21,6 @@ div #menuizquierda {
 
 div #tutorial {
     padding-left: 2em;
-
 }
 
 #compras {
