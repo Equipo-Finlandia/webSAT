@@ -1,25 +1,27 @@
-div #menuizquierda{
-    float:left;
-    background-color:darkgray;
+div #menuizquierda {
+    float: left;
+    background-color: darkgray;
     border: 1px solid;
-    padding:1em;
-    margin-top:8em;
-    margin-left:2em;
+    padding: 1em;
+    margin-top: 8em;
+    margin-left: 2em;
 }
 
-#menuizquierda{
-    margin-right:3em;
-}
-#menuizquierda li{
-    margin-left:-10px;
-}
-#menuizquierda a:hover{
-    color:white;
+#menuizquierda {
+    margin-right: 3em;
 }
 
-div #tutorial{
-    padding-left:2em;
-    
+#menuizquierda li {
+    margin-left: -10px;
+}
+
+#menuizquierda a:hover {
+    color: white;
+}
+
+div #tutorial {
+    padding-left: 2em;
+
 }
 
 #compras {
@@ -29,41 +31,48 @@ div #tutorial{
     background-image: linear-gradient(#1e5799 60%, #1d368f 50%, #1e5799 60%);
 }
 
-#img_compra{
+#img_compra {
     width: 600px;
-    height:300px;
+    height: 300px;
     border: 2px solid;
-    margin-left:1em;
-}
-#img_compras{
-    width: 600px;
-    height:300px;
-    border: 2px solid;
-    margin-left:8em;
+    margin-left: 1em;
 }
 
-#img_compras2{
-    width:600px;
-    border:2px solid;
-    margin-left:8em;
+#img_compras {
+    width: 600px;
+    height: 300px;
+    border: 2px solid;
+    margin-left: 8em;
 }
 
-#img_compras:hover, #img_compras2:hover{
+#img_compras2 {
+    width: 600px;
+    border: 2px solid;
+    margin-left: 8em;
+}
+
+#img_compras:hover,
+#img_compras2:hover {
     height: inherit;
-    width:70%;
-    transition:1s;
-    margin-left:6em;
+    width: 70%;
+    transition: 1s;
+    margin-left: 6em;
 }
 
 #tutorial {
     font-family: verdana;
 }
 
-a:visited{
+a:visited {
     text-decoration: none;
-    color:blue;
+    color: blue;
 }
 
-.menu a{
-    color:white;
+.menu a {
+    color: white;
+}
+
+#volver {
+    float: left;
+    margin-left: 10px;
 }

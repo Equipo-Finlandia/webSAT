@@ -5,17 +5,24 @@
     background-image: linear-gradient(#1e5799 60%, #1d368f 50%, #1e5799 60%);
     cursor: pointer;
     font-weight: 600;
-    text-shadow: 2px 2px black;
 }
 
 .principal a {
     color: white;
 }
 
+.principal a:hover{
+    text-decoration: underline;
+}
+
 
 #menuizquierda {
     width: 980px;
     margin-left: 10px;
+}
+
+#menuizquierda li {
+    margin-left: -10px;
 }
 
 
@@ -113,4 +120,9 @@ a:hover {
 
 #t1 {
     column-count: 4;
+}
+
+#volver{
+    float: left;
+    margin-left:10px;
 }

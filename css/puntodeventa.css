@@ -97,3 +97,8 @@ a:visited {
 #menuizquierda a:hover{
     color:white;
 }
+
+#volver{
+    float: left;
+    margin-left:10px;
+}
